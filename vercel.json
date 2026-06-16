@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "rewrites": [
-    { "source": "/callback", "destination": "/api/callback" },
-    { "source": "/callback/(.*)", "destination": "/api/callback" }
+  "routes": [
+    { "src": "/callback", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
